@@ -1,0 +1,375 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Estilos para los componentes */
+.registro {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registro h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registro form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro form div {
+  margin-bottom: 10px;
+}
+
+.registro form label {
+  font-weight: bold;
+}
+
+.registro form input,
+.registro form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.registro form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro form button:hover {
+  background-color: #555;
+}
+
+/* Estilos adicionales para otros elementos de la página */
+/* Agrega aquí tus estilos personalizados según tus necesidades */
+/* Estilos para RegistroPersona */
+.registro-persona {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registro-persona h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registro-persona form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-persona form div {
+  margin-bottom: 10px;
+}
+
+.registro-persona form label {
+  font-weight: bold;
+}
+
+.registro-persona form input,
+.registro-persona form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.registro-persona form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro-persona form button:hover {
+  background-color: #555;
+}
+
+/* Estilos para RegistroAula */
+.registro-aula {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registro-aula h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registro-aula form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-aula form div {
+  margin-bottom: 10px;
+}
+
+.registro-aula form label {
+  font-weight: bold;
+}
+
+.registro-aula form input,
+.registro-aula form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.registro-aula form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro-aula form button:hover {
+  background-color: #555;
+}
+
+/* Estilos para RegistroAsignatura */
+.registro-asignatura {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registro-asignatura h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registro-asignatura form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-asignatura form div {
+  margin-bottom: 10px;
+}
+
+.registro-asignatura form label {
+  font-weight: bold;
+}
+
+.registro-asignatura form input,
+.registro-asignatura form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.registro-asignatura form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro-asignatura form button:hover {
+  background-color: #555;
+}
+
+/* Estilos para RegistroProfesor */
+.registro-profesor {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registro-profesor h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registro-profesor form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-profesor form div {
+  margin-bottom: 10px;
+}
+
+.registro-profesor form label {
+  font-weight: bold;
+}
+
+.registro-profesor form input,
+.registro-profesor form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.registro-profesor form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro-profesor form button:hover {
+  background-color: #555;
+}
+
+/* Estilos para SistemaCobros */
+.sistema-cobros {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sistema-cobros h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sistema-cobros form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sistema-cobros form div {
+  margin-bottom: 10px;
+}
+
+.sistema-cobros form label {
+  font-weight: bold;
+}
+
+.sistema-cobros form input,
+.sistema-cobros form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.sistema-cobros form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sistema-cobros form button:hover {
+  background-color: #555;
+}
+/* Estilos para InscripcionEstudiantes */
+.inscripcion-estudiantes {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inscripcion-estudiantes h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inscripcion-estudiantes form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inscripcion-estudiantes form div {
+  margin-bottom: 10px;
+}
+
+.inscripcion-estudiantes form label {
+  font-weight: bold;
+}
+
+.inscripcion-estudiantes form input,
+.inscripcion-estudiantes form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.inscripcion-estudiantes form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inscripcion-estudiantes form button:hover {
+  background-color: #555;
+}
+
+label {
+  display: block;
+}
+form {
+  position: relative;
+}
+
+button {
+  min-width: 150px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.division {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  width: 90%; 
+}
+
+@media (max-width: 832px){
+  .division { 
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.init { 
+  display: grid;
+  place-items: center;
+}

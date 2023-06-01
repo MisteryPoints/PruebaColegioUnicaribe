@@ -1,0 +1,49 @@
+/* Estilos para App */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  font-family: Arial, sans-serif;
+}
+
+.app-header { 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-content {
+  min-width: 80%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-link {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.app-link:hover {
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
